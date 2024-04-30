@@ -1,0 +1,5 @@
+// a script that inserts a collection to a db
+db.school.insertOne({
+        "name": "Holberton school"
+})
+

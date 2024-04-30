@@ -1,0 +1,2 @@
+// a script that deletes docs specified by the name
+db.school.deleteOne({name: "Holberton school"})
