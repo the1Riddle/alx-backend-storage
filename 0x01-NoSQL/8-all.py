@@ -3,7 +3,7 @@
     a function that prints all collections in a db
     and return an empty list if none is available
 """
-from pymongo import MongoClient as client
+from pymongo import MongoClient
 
 
 def list_all(mongo_collection):
